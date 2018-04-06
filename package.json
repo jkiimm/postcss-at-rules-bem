@@ -1,0 +1,38 @@
+{
+  "name": "postcss-at-rules-bem",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for BEM name convention",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "bem"
+  ],
+  "author": "Jinyoung Kim <jkiimm9@gmail.com>",
+  "license": "MIT",
+  "repository": "jkiimm/postcss-at-rules-bem",
+  "bugs": {
+    "url": "https://github.com/jkiimm/postcss-at-rules-bem/issues"
+  },
+  "homepage": "https://github.com/jkiimm/postcss-at-rules-bem",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
